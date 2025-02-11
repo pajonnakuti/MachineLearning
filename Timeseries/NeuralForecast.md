@@ -20,7 +20,7 @@ You can install NeuralForecast using pip:
 
 ```bash
 pip install neuralforecast
-```bash
+```
 ## Data Preparation
 
 NeuralForecast expects your data to be in a specific format. It should be a Pandas DataFrame with two columns:
