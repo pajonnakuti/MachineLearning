@@ -20,7 +20,7 @@ You can install NeuralForecast using pip:
 
 ```bash
 pip install neuralforecast
-
+```bash
 ## Data Preparation
 
 NeuralForecast expects your data to be in a specific format. It should be a Pandas DataFrame with two columns:
@@ -56,7 +56,7 @@ nf.fit(df)
 
 Generate forecasts
 forecast = nf.predict()
-
+```bash
 ## Evaluation
 
 NeuralForecast provides tools for evaluating forecast accuracy using metrics such as:
@@ -72,9 +72,10 @@ You can use these metrics to compare different models and select the best one fo
 You can visualize the forecasts using libraries like Matplotlib or Seaborn. Here's an example using Matplotlib:
 
 Assuming your forecast DataFrame is called 'forecast'
+```bash
 dates = forecast['ds'] forecast_values = forecast['NBEATS'] # Replace with your model name
-
 plt.plot(dates, forecast_values, label='Forecast') plt.plot(df['ds'], df['y'], label='Actual') plt.legend() plt.show()
+```bash
 
 ## Conclusion
 
