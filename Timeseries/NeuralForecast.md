@@ -56,7 +56,7 @@ nf.fit(df)
 
 Generate forecasts
 forecast = nf.predict()
-```bash
+```
 ## Evaluation
 
 NeuralForecast provides tools for evaluating forecast accuracy using metrics such as:
@@ -75,7 +75,7 @@ Assuming your forecast DataFrame is called 'forecast'
 ```bash
 dates = forecast['ds'] forecast_values = forecast['NBEATS'] # Replace with your model name
 plt.plot(dates, forecast_values, label='Forecast') plt.plot(df['ds'], df['y'], label='Actual') plt.legend() plt.show()
-```bash
+```
 
 ## Conclusion
 
