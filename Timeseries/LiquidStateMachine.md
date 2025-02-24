@@ -164,6 +164,6 @@ print(study.best_params)
 ## **Contributing 🤝**  
 Feel free to **fork, modify, and submit pull requests**! 🚀  
 
-👨‍💻 Developed by: **[Your Name]**  
-📧 Contact: **your_email@example.com**  
-🔗 GitHub: [GitHub Repo Link]  
+👨‍💻 Developed by: **[PAVAN KUMAR JONNAKUTI]**  
+📧 Contact: **pavankumar.j@incois.gov.in**  
+
